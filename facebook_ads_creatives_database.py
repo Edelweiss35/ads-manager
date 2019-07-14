@@ -24,10 +24,7 @@ my_app_id = '0000000000000'
 my_app_secret = '00000000000000000000000000000000'
 my_access_token = '000000000000000000000000000000000000000'
 
-
-
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
-
 
 
 class creatives:
@@ -106,8 +103,6 @@ class dataframe:
         except FacebookRequestError:
             pass
         return df
-    
-
 
 #notyet, start from here
 start_date = "2017-08-09"
