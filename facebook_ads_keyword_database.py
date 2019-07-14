@@ -6,8 +6,6 @@ Created on Mon May  8 13:52:50 2017
 """
 
 from facebookads.api import FacebookAdsApi
-#from facebookads.adobjects.adcreative import AdCreative
-#from facebookads.adobjects.adimage import AdImage
 from facebookads.adobjects.adaccount import AdAccount
 from facebookads.adobjects.ad import Ad
 
@@ -24,8 +22,6 @@ account_id = "act_00000000000000000"
 my_app_id = '0000000000000'
 my_app_secret = '00000000000000000000000000000000'
 my_access_token = '000000000000000000000000000000000000000'
-
-
 
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
@@ -192,11 +188,6 @@ data.dicts()
 data.lists()
 data.frames()
 DF = data.perfect()
-
-
-
-
-
 ####################################keyword
 keyword = keyword_stats(DF)
 keyword.key_raw()
