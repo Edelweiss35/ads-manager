@@ -15,20 +15,15 @@ from sqlalchemy import create_engine, MetaData
 import numpy as np
 import re
 
-
 account_id = "act_00000000000000000"
 
 my_app_id = '0000000000000'
 my_app_secret = '00000000000000000000000000000000'
 my_access_token = '000000000000000000000000000000000000000'
 
-
-
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
-
 class AdsInsight:
-    
 
     def get_ads_insight(self, report_date,account_id):
 
